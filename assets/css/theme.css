@@ -1,0 +1,24 @@
+.fade-enter-active,
+.fade-leave-active {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-leave-active,
+.slide-enter-active {
+  transition: 0.2s;
+  transform-origin: top;
+  transform: scale(1);
+}
+.slide-enter-from,
+.slide-leave-to {
+  transform: scale(0);
+}
+button:active {
+  transform: scale(0.9);
+  transition: transform 0.1s linear;
+}

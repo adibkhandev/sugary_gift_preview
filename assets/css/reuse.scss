@@ -1,0 +1,58 @@
+.confirm{
+    font-size: clamp(0.7rem,2.4vw,1rem);
+    height:3.6em;
+    min-height: 3.2rem;
+    width:82%;
+    border-radius:200px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 800;
+    background-color: rgba(109, 137, 93, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .arrow{
+        position: absolute;
+        top:0;
+        right:2em;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }         
+}
+.rights{
+    color:rgba(255, 255, 255, 0.3);
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 60%;
+    margin: 2.2em;
+ }
+ .input-container{
+    position: relative;
+    img{
+        position: absolute;
+        z-index: 2;
+        top: 40%;
+        left: min(2em,3.8vw);
+    }
+    input{
+        background-color: rgba(41, 41, 41, 1);
+        width: 100%;
+        height: 4.4em;
+        border-radius: 8px;
+        padding-left: 3em ;
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 1);
+        &::placeholder{
+            font-weight: 700;
+            color:rgba(255, 255, 255, 0.35);
+        }
+    }
+}
+.page-load-fade{
+    animation: 1s linear 0s page-loading-fade;
+    animation-fill-mode:forwards ;
+}

@@ -1,0 +1,26 @@
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+input:focus, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+*{
+  box-sizing: 'border-box';
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  background: #1B1B1B;
+  color: white;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
